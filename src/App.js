@@ -18,8 +18,8 @@ const App = () => {
     //console.log(data);
   }
   useEffect(() =>{
-    searchMovies('Top gun');
-  },[]);
+    searchMovies(searchTerm);
+  },[searchTerm]);
 
 
   return (
